@@ -18,7 +18,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./training_loss.png "Training & Validation Loss"
-[image2]: ./examples/center_image.png "Example image"
+[image2]: ./examples/center_image.jpg "Example image"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -91,7 +91,7 @@ The final model architecture is the [NVIDIA E2E learning model](https://devblogs
 
 #### 3. Creation of the Training Set & Training Process
 
-I recorded one lap on track one using center lane driving. Here is an example image of the data set: 
+I recorded one lap on track one using center lane driving. Here is an example image of the data set:
 
 ![alt text][image2]
 
