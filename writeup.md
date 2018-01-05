@@ -45,7 +45,7 @@ python drive.py model.h5
 
 The model.py file contains the code for training and saving the convolution neural network. The file shows the pipeline I used for training and validating the model, and it contains comments to explain how the code works.
 
-My main source for the code is the [Q&A video for project 3](https://review.udacity.com/#!/rubrics/432/view).
+My main source for the code is the [Q&A video for project 3](https://www.youtube.com/watch?v=rpxZ87YFg0M).
 
 ### Model Architecture and Training Strategy
 

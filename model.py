@@ -1,5 +1,5 @@
 ### code source: walkthrough project 3
-### https://www.youtube.com/watch?v=rpxZ87YFg0M&t=2360s
+### https://www.youtube.com/watch?v=rpxZ87YFg0M
 
 ### imports
 
