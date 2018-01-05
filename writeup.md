@@ -18,6 +18,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./training_loss.png "Training & Validation Loss"
+[image2]: ./examples/center_image.png "Example image"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
@@ -90,7 +91,11 @@ The final model architecture is the [NVIDIA E2E learning model](https://devblogs
 
 #### 3. Creation of the Training Set & Training Process
 
-I recorded one lap on track one using center lane driving. To augment the data set, I used the images of the left and right camera as well and also flipped images and steering angles to increase robustness of the model.
+I recorded one lap on track one using center lane driving. Here is an example image of the data set: 
+
+![alt text][image2]
+
+To augment the data set, I used the images of the left and right camera as well and also flipped images and steering angles to increase robustness of the model.
 
 After the collection process, I had 7248 number of data points. I then preprocessed this data by normalization with a Keras lambda layer. I finally randomly shuffled the data set and put 20% of the data into a validation set.
 
